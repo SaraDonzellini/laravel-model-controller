@@ -1,1 +1,14 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  background-color: midnightblue;
+
+}
+
+h1{
+  color: white;
+}
+
+.card {
+  margin-bottom: 3rem;
+}
