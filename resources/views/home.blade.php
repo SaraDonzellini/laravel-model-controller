@@ -14,7 +14,7 @@
       {{-- @dd($movie) --}}
       <div class="col-3">
         <div class="card">
-          <img src="" alt="{{ $movie->title }}" class="img-fluid">
+          <img src="{{ $movie->cover }}" alt="{{ $movie->title }}" class="img-fluid">
           <h2>
             {{ $movie->title }}
           </h2>
